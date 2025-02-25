@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        mulish: "var(--font-mulish), sans-serif",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
