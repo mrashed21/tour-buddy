@@ -9,7 +9,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mulish: "var(--font-mulish), sans-serif",
+        mulish: "Mulish, sans-serif",
+        inria: ["Inria Serif", "serif"],
+        mukta: ["Mukta", "sans-serif"],
       },
       colors: {
         background: "var(--background)",
