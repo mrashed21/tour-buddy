@@ -208,7 +208,7 @@ const ProfilePage: React.FC = () => {
                     </div>
 
                     <div>
-                      <button className="bg-teal-500 hover:bg-teal-600 text-white font-medium py-3 px-6 rounded w-full md:w-auto">
+                      <button className="bg-[#7BBCB0]hover:bg-teal-600 text-white font-medium py-3 px-6 rounded w-full md:w-auto">
                         Save
                       </button>
                     </div>
