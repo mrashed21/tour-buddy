@@ -122,13 +122,43 @@ const ProfilePage: React.FC = () => {
                         className="block text-gray-700 mb-2"
                         htmlFor="phone"
                       >
-                        Phone
+                        Phone Number
                       </label>
                       <input
                         type="text"
                         id="phone"
                         className="w-full p-3 border border-gray-300 rounded bg-gray-50"
                         defaultValue="+880-1781-131905"
+                      />
+                    </div>
+
+                    <div>
+                      <label
+                        className="block text-gray-700 mb-2"
+                        htmlFor="language"
+                      >
+                        Language
+                      </label>
+                      <input
+                        type="text"
+                        id="language"
+                        className="w-full p-3 border border-gray-300 rounded bg-gray-50"
+                        defaultValue="English, Bengali"
+                      />
+                    </div>
+
+                    <div>
+                      <label
+                        className="block text-gray-700 mb-2"
+                        htmlFor="experience"
+                      >
+                        Experience
+                      </label>
+                      <input
+                        type="text"
+                        id="experience"
+                        className="w-full p-3 border border-gray-300 rounded bg-gray-50"
+                        defaultValue="5 years"
                       />
                     </div>
 
@@ -208,7 +238,7 @@ const ProfilePage: React.FC = () => {
                     </div>
 
                     <div>
-                      <button className="bg-[#7BBCB0]hover:bg-teal-600 text-white font-medium py-3 px-6 rounded w-full md:w-auto">
+                      <button className="bg-[#7BBCB0] hover:bg-teal-600 text-white font-medium py-3 px-6 rounded w-full md:w-auto">
                         Save
                       </button>
                     </div>
@@ -219,8 +249,6 @@ const ProfilePage: React.FC = () => {
           </div>
         </div>
       </main>
-
-      {/* Footer */}
     </div>
   );
 };
