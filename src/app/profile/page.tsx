@@ -24,7 +24,7 @@ const ProfilePage: React.FC = () => {
             User Profile
           </h2>
 
-          <div className="bg-white rounded-lg shadow-md overflow-hidden mx-16">
+          <div className="bg-white rounded-lg shadow-md overflow-hidden lg:mx-16">
             <div className="flex flex-col md:flex-row">
               {/* Sidebar */}
               <div className="w-full md:w-1/4 border-r border-gray-200">
